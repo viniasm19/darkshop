@@ -1,12 +1,15 @@
-# TODO - Integração JSON Server (Angular)
+# TODO - Reorganização e refactor de estrutura Angular
 
-- [ ] Entender a estrutura atual do app.component.ts e carrinho
-- [ ] Definir interfaces `Produto` e `Usuario` com `id: number`
-- [ ] Injetar `HttpClient` via `private http = inject(HttpClient);`
-- [ ] Definir `private API = 'http://localhost:3000';`
-- [ ] Implementar CRUD no `app.component.ts`: `listarProdutos`, `excluirProduto`, `listarUsuarios`, `excluirUsuario`
-- [ ] Aplicar regra de IDs: ao criar novo registro, usar maiorId + 1 e `http.put(/recurso/novoId)`
-- [ ] Adicionar estado local de carrinho: `Produto[] = []`, `adicionarAoCarrinho(produto)` e getter `totalGeral`
-- [ ] Entregar `app.component.ts` completo integrado (sem remover estrutura existente)
-- [ ] (Após mudanças) testar build/execução se necessário
+## Status: Iniciado
+
+- [x] Inspecionar componentes/páginas que importam `Produto`/`Usuario` e serviços
+- [ ] Criar pastas `src/app/core`, `src/app/shared`, `src/app/interfaces` (parcial: `models` já criado)
+- [x] Mover/centralizar tipos duplicados (`Produto`) e ajustar imports
+- [ ] (Se necessário) ajustar imports em rotas/componentes/páginas (parcial)
+- [x] Organizar/confirmar backend fake em `/backend` (mantendo `db.json`)
+- [x] Melhorar `.gitignore` (remover `.vscode` do versionamento)
+- [ ] Padronizar nomes onde for seguro (sem alterar rotas/paths)
+- [x] Rodar `npm run build` para validar que não quebrou
+- [x] Atualizar lista final das alterações realizadas e nova estrutura
+
 

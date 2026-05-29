@@ -4,20 +4,9 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { HttpClient } from '@angular/common/http';
 import { CartService } from './services/cart.service';
+import { Produto } from './models/produto.model';
+import { Usuario } from './models/usuario.model';
 
-export interface Produto {
-  id: number;
-  nome: string;
-  preco: number;
-  imagemUrl: string;
-  categoria: string;
-}
-
-export interface Usuario {
-  id: number;
-  nome: string;
-  email: string;
-}
 
 @Component({
   selector: 'app-root',

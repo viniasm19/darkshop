@@ -1,18 +1,15 @@
 import { Injectable, signal, computed } from '@angular/core';
+import { Produto } from '../models/produto.model';
 
-export interface Produto {
-  id: number;
-  nome: string;
-  preco: number;
-  imagem: string;
-  categoria: string;
-  descricao?: string;
-}
+export type { Produto };
+
+
 
 export interface CartItem {
   produto: Produto;
   quantidade: number;
 }
+
 
 @Injectable({
   providedIn: 'root'
@@ -21,6 +18,8 @@ export class CartService {
 
   private itensCarrinho = signal<CartItem[]>([]);
   private _toast = signal<string | null>(null);
+
+
   toast = this._toast.asReadonly();
 
   getCartItems() {
