@@ -1,1 +1,130 @@
-# dark-tech
+# DarkShop
+
+Projeto acadêmico desenvolvido no curso de Análise e Desenvolvimento de Sistemas do Centro Universitário Senac.
+
+## Descrição
+
+O DarkShop é uma aplicação web de e-commerce desenvolvida com Angular, com foco em praticar conceitos de desenvolvimento front-end, componentização, consumo de dados e organização de interface.
+
+O projeto simula uma loja virtual com catálogo de produtos, navegação entre páginas e gerenciamento visual dos itens exibidos.
+
+## Objetivos do Projeto
+
+* Praticar desenvolvimento com Angular
+* Aplicar conceitos de componentização
+* Trabalhar em equipe utilizando Git/GitHub
+* Desenvolver interfaces modernas e responsivas
+* Compreender estruturação de projetos front-end
+
+## Tecnologias Utilizadas
+
+* Angular
+* TypeScript
+* HTML5
+* CSS3
+* Node.js
+* JSON Server
+
+## Funcionalidades
+
+* Listagem de produtos
+* Navegação entre páginas
+* Componentes reutilizáveis
+* Interface responsiva
+* Simulação de API utilizando JSON Server
+* Estrutura modular utilizando Angular
+
+## Estrutura do Projeto
+
+```bash
+darkshop/
+├── src/
+├── public/
+├── backend/
+├── angular.json
+├── package.json
+└── README.md
+```
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+* Node.js instalado
+* Angular CLI instalada globalmente
+
+Instalar Angular CLI:
+
+```bash
+npm install -g @angular/cli
+```
+
+---
+
+### Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEUUSUARIO/darkshop.git
+```
+
+Acesse a pasta:
+
+```bash
+cd darkshop
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+---
+
+### Executando o Front-end
+
+```bash
+ng serve
+```
+
+A aplicação ficará disponível em:
+
+```bash
+http://localhost:4200
+```
+
+---
+
+### Executando o JSON Server
+
+```bash
+npx json-server backend/db.json
+```
+
+## Aprendizados
+
+Durante o desenvolvimento do projeto foram praticados conceitos como:
+
+* Estruturação de aplicações Angular
+* Componentização
+* Organização de pastas
+* Consumo e manipulação de dados
+* Versionamento com Git/GitHub
+* Trabalho em equipe
+
+## Participação no Projeto
+
+Projeto desenvolvido em grupo para fins acadêmicos.
+
+Minha participação foi principalmente na apresentação do projeto e apoio no desenvolvimento geral da aplicação, além do acompanhamento da estrutura e funcionamento do sistema.
+
+## Autor
+
+Maria Rita de Cassia Sousa Santos
+Vinicius Alves Soares de Melo
+
+## Licença
+
+Projeto acadêmico desenvolvido para fins educacionais.
