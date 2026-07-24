@@ -1,42 +1,44 @@
-# DarkShop
+# 🛍️ DarkShop
+
+## 📌 Contexto
 
 Projeto acadêmico desenvolvido no curso de Análise e Desenvolvimento de Sistemas do Centro Universitário Senac.
 
-## Descrição
+## 🎯 Objetivo
 
 O DarkShop é uma aplicação web de e-commerce desenvolvida com Angular, com foco em praticar conceitos de desenvolvimento front-end, componentização, consumo de dados e organização de interface.
 
 O projeto simula uma loja virtual com catálogo de produtos, navegação entre páginas e gerenciamento visual dos itens exibidos.
 
-## Objetivos do Projeto
+### Objetivos específicos
 
-* Praticar desenvolvimento com Angular
-* Aplicar conceitos de componentização
-* Trabalhar em equipe utilizando Git/GitHub
-* Desenvolver interfaces modernas e responsivas
-* Compreender estruturação de projetos front-end
+- Praticar desenvolvimento com Angular
+- Aplicar conceitos de componentização
+- Trabalhar em equipe utilizando Git/GitHub
+- Desenvolver interfaces modernas e responsivas
+- Compreender estruturação de projetos front-end
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias
 
-* Angular
-* TypeScript
-* HTML5
-* CSS3
-* Node.js
-* JSON Server
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- Node.js
+- JSON Server
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-* Listagem de produtos
-* Navegação entre páginas
-* Componentes reutilizáveis
-* Interface responsiva
-* Simulação de API utilizando JSON Server
-* Estrutura modular utilizando Angular
+- Listagem de produtos
+- Navegação entre páginas
+- Componentes reutilizáveis
+- Interface responsiva
+- Simulação de API utilizando JSON Server
+- Estrutura modular utilizando Angular
 
-## Estrutura do Projeto
+## 📁 Estrutura do projeto
 
-```bash
+```
 darkshop/
 ├── src/
 ├── public/
@@ -46,12 +48,12 @@ darkshop/
 └── README.md
 ```
 
-## Como Executar o Projeto
+## 🚀 Como executar
 
 ### Pré-requisitos
 
-* Node.js instalado
-* Angular CLI instalada globalmente
+- Node.js instalado
+- Angular CLI instalada globalmente
 
 Instalar Angular CLI:
 
@@ -59,14 +61,12 @@ Instalar Angular CLI:
 npm install -g @angular/cli
 ```
 
----
-
 ### Instalação
 
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEUUSUARIO/darkshop.git
+git clone https://github.com/viniasm19/darkshop.git
 ```
 
 Acesse a pasta:
@@ -81,9 +81,7 @@ Instale as dependências:
 npm install
 ```
 
----
-
-### Executando o Front-end
+### Executando o front-end
 
 ```bash
 ng serve
@@ -91,11 +89,9 @@ ng serve
 
 A aplicação ficará disponível em:
 
-```bash
+```
 http://localhost:4200
 ```
-
----
 
 ### Executando o JSON Server
 
@@ -103,28 +99,28 @@ http://localhost:4200
 npx json-server backend/db.json
 ```
 
-## Aprendizados
+## 📚 O que aprendi
 
 Durante o desenvolvimento do projeto foram praticados conceitos como:
 
-* Estruturação de aplicações Angular
-* Componentização
-* Organização de pastas
-* Consumo e manipulação de dados
-* Versionamento com Git/GitHub
-* Trabalho em equipe
+- Estruturação de aplicações Angular
+- Componentização
+- Organização de pastas
+- Consumo e manipulação de dados
+- Versionamento com Git/GitHub
+- Trabalho em equipe
 
-## Participação no Projeto
+## 👥 Participação no projeto
 
 Projeto desenvolvido em grupo para fins acadêmicos.
 
 Minha participação foi principalmente na apresentação do projeto e apoio no desenvolvimento geral da aplicação, além do acompanhamento da estrutura e funcionamento do sistema.
 
-## Autor
+## 👤 Autores
 
-Maria Rita de Cassia Sousa Santos
-Vinicius Alves Soares de Melo
+- Maria Rita de Cassia Sousa Santos
+- Vinicius Alves Soares de Melo
 
-## Licença
+## 📄 Licença
 
-Projeto acadêmico desenvolvido para fins educacionais.
+Projeto acadêmico desenvolvido para fins educacionais - Centro Universitário Senac, 2026.
