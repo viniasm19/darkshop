@@ -110,12 +110,6 @@ Durante o desenvolvimento do projeto foram praticados conceitos como:
 - Versionamento com Git/GitHub
 - Trabalho em equipe
 
-## 👥 Participação no projeto
-
-Projeto desenvolvido em grupo para fins acadêmicos.
-
-Minha participação foi principalmente na apresentação do projeto e apoio no desenvolvimento geral da aplicação, além do acompanhamento da estrutura e funcionamento do sistema.
-
 ## 👤 Autores
 
 - Maria Rita de Cassia Sousa Santos
